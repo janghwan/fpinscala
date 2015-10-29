@@ -1,0 +1,52 @@
+(
+ :root-dir "/Users/jlee/projects/github/fpinscala"
+ :cache-dir "/Users/jlee/projects/github/fpinscala/.ensime_cache"
+ :name "fpinscala"
+ :java-home "/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home"
+ :java-flags ("-Xss2m" "-Xms1024m" "-Xmx1024m" "-XX:ReservedCodeCacheSize=128m" "-XX:MaxMetaspaceSize=256m" "-Xmx4G")
+ :reference-source-roots ("/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip")
+ :scala-version "2.11.5"
+ :compiler-args ("-feature" "-deprecation" "-Xlint" "-Yinline-warnings" "-Yno-adapted-args" "-Ywarn-dead-code" "-Ywarn-numeric-widen" "-Xfuture" "-Ywarn-unused-import")
+ 
+ :subprojects ((
+   :name "answers"
+   :source-roots ("/Users/jlee/projects/github/fpinscala/answers/src/main/scala")
+   :targets ("/Users/jlee/projects/github/fpinscala/answers/target/scala-2.11/classes")
+   :test-targets ("/Users/jlee/projects/github/fpinscala/answers/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.5-javadoc.jar" "/Users/jlee/projects/github/fpinscala/answers/target/scala-2.11/answers_2.11-0.1-SNAPSHOT-javadoc.jar")
+   :reference-source-roots ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.5-sources.jar")) (
+   :name "chapter-code"
+   :source-roots nil
+   :targets ("/Users/jlee/projects/github/fpinscala/chaptercode/target/scala-2.11/classes")
+   :test-targets ("/Users/jlee/projects/github/fpinscala/chaptercode/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.5-javadoc.jar" "/Users/jlee/projects/github/fpinscala/chaptercode/target/scala-2.11/chapter-code_2.11-0.1-SNAPSHOT-javadoc.jar")
+   :reference-source-roots ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.5-sources.jar")) (
+   :name "exercises"
+   :source-roots ("/Users/jlee/projects/github/fpinscala/exercises/src/main/scala")
+   :targets ("/Users/jlee/projects/github/fpinscala/exercises/target/scala-2.11/classes")
+   :test-targets ("/Users/jlee/projects/github/fpinscala/exercises/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.5-javadoc.jar" "/Users/jlee/projects/github/fpinscala/exercises/target/scala-2.11/exercises_2.11-0.1-SNAPSHOT-javadoc.jar")
+   :reference-source-roots ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.5-sources.jar")) (
+   :name "fpinscala"
+   :source-roots nil
+   :targets ("/Users/jlee/projects/github/fpinscala/target/scala-2.11/classes")
+   :test-targets ("/Users/jlee/projects/github/fpinscala/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.5-javadoc.jar" "/Users/jlee/projects/github/fpinscala/target/scala-2.11/fpinscala_2.11-0.1-SNAPSHOT-javadoc.jar")
+   :reference-source-roots ("/Users/jlee/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.5-sources.jar")))
+)
